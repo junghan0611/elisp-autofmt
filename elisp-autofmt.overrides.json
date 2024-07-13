@@ -48,11 +48,14 @@
 "setq-default": ["func", 2, "many", {"break": "multi", "break_point": "overflow", "group": [0, 2]}],
 "setq-local": ["func", 2, "many", {"break": "multi", "break_point": "overflow", "group": [0, 2]}],
 
+"use-package!": ["macro", 2, "many", {"doc-string": 3, "indent": 2, "break": "always", "break_point": "overflow"}],
+"after!": ["macro", 2, "many", {"doc-string": 3, "indent": 2, "break": "always", "break_point": "overflow"}],
 "cl-defmethod": ["macro", 2, "many", {"doc-string": 3, "indent": 2, "break": "always", "break_point": "overflow"}],
 "defadvice": ["macro", 2, "many", {"doc-string": 3, "indent": 2, "break": "always", "break_point": "overflow"}],
 "defmacro": ["macro", 2, "many", {"doc-string": 3, "indent": 2, "break": "always", "break_point": "overflow"}],
 "defsubst": ["macro", 2, "many", {"doc-string": 3, "indent": 2, "break": "always", "break_point": "overflow"}],
 "defun": ["macro", 2, "many", {"doc-string": 3, "indent": 2, "break": "always", "break_point": "overflow"}],
+"cl-defun": ["macro", 2, "many", {"doc-string": 3, "indent": 2, "break": "always", "break_point": "overflow"}],
 "ert-deftest": ["macro", 2, "many", {"doc-string": 3, "indent": 2, "break": "always", "break_point": "overflow"}],
 "iter-defun": ["macro", 2, "many", {"doc-string": 3, "indent": 2, "break": "always", "break_point": "overflow"}]
 
